@@ -1,27 +1,37 @@
-# ⚙️ Mail App Core
+# 🏎️ F1 Strategy Commander – Frontend
 
-This is the secure local backend of the Mail Assistant — a privacy-first, intelligent desktop email client that helps users stay focused and respond to the most important messages without distraction.
+This is the frontend for **F1 Strategy Commander**, a game where users make strategy decisions in real F1 race scenarios — without knowing the driver or event until the end.
 
-This repo contains all backend functionality powered by [Tauri](https://tauri.app) and written in **Rust**, including:
-- User login and session handling
-- OAuth2 integration with Gmail and Outlook (Microsoft Graph)
-- Local encrypted storage of tokens and metadata
-- Background email sync and polling
-- Urgency classification via local AI
-- Native system notifications and cross-device alert triggers
+Players go through 5 curated scenarios per race and are scored based on how their decisions improve or worsen real outcomes. The top managers appear on a global leaderboard each day.
 
 ---
 
-## 🔧 Features
+## 📱 Tech Stack
 
-- 🔐 Secure email/password login (with optional OAuth)
-- ✉️ Gmail & Outlook Workspace API integration
-- 🧠 AI-based classification (urgent vs non-urgent)
-- 📦 Local-first storage using SQLite
-- 🔔 System notifications and optional mobile pings (Telegram/FCM)
-- 🚀 Auto-launch and background polling on boot
+- [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [React Router](https://reactrouter.com/) or [TanStack Router](https://tanstack.com/router)
+- Optional: [Framer Motion](https://www.framer.com/motion/) for animations
 
 ---
 
-## 🧱 Project Structure
+## 🚀 Features
 
+- 🔐 JWT-based login & registration
+- 🧩 5–8 real-world strategy scenarios per race
+- 🎯 Score feedback based on real race data
+- 🧠 Final race & driver reveal
+- 🏆 Daily leaderboard & manager score
+- 🔥 Daily streak tracking
+- 📱 Mobile-first PWA-ready design
+
+---
+
+## 🛠️ Setup
+
+```bash
+git clone https://github.com/your-username/f1-strategy-game-frontend
+cd f1-strategy-game-frontend
+npm install
